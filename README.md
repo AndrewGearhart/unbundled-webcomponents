@@ -36,12 +36,12 @@ Well, polymer.json happens to do unbundled builds. It is a bundler / compiler bu
 - If you build your app as if there is unbundled references and want to leverage optimizations as a result
 - If you are using a CMS or application that controls its own JS via a different workflow, this is probably the safer option
 - This is a stepping stone to the future. In the next few years unbundling will be possible without tooling thanks to importmaps
-- Your running an HTTP/2 server / CDN and know it's faster!
+- You're running an HTTP/2 server / CDN and know it's faster!
 
 ### Why not to unbundle
 - anti-pattern in the JS community of today
 - still uses `polymer build` to keep things separate
-- webpack / rollup by themselves will make smaller asset bundles and your shipping 1 stand alone app as opposed to several sites across a CDN
+- webpack / rollup by themselves will make smaller asset bundles and you're shipping 1 stand alone app as opposed to several sites across a CDN
 
 ## Tools in here
 This has a configuration of polymer.json, a format used by the polymer CLI in order to create 3 builds of your assets.
